@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>PYVisual POC!</title>
+    </head>
+    <body>
+        <h1>Welcome to my test page</h1>
+
+    {% if graph %}
+    <div style="width:600;height:500">
+    {{ graph|safe }}
+    </div>
+    {% endif %}
+
+    </body>
+</html>
